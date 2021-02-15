@@ -22,7 +22,7 @@ def return_lowercased_string(input_string):
     Return it but the lowercase version of it."""
 
 
-    return_value = input_string.lower
+    return_value = input_string.lower()
     return return_value
 
 
@@ -41,4 +41,3 @@ def return_addition(first_number, second_number):
 
     return_value = first_number + second_number
     return return_value
-
